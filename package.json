@@ -36,7 +36,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages -r https://$REACT_APP_GITHUB_API_KEY@github.com/gayankanishka/gayankanishka.github.io.git",
+    "deploy": "gatsby build && touch .nojekyll && gh-pages -d public -b gh-pages -r https://$REACT_APP_GITHUB_API_KEY@github.com/gayankanishka/gayankanishka.github.io.git",
     "start": "gatsby develop -o",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
