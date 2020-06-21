@@ -1,15 +1,16 @@
-name: CI
-
+name: Build and Deploy
 on:
   push:
     branches:
       - develop
-
 jobs:
-  update:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
       - name: Set Node.js
         uses: actions/setup-node@master
@@ -17,10 +18,7 @@ jobs:
           node-version: 10.x
 
       - name: Install dependencies
-        run: yarn install --prod --pure-lockfile
-
-      - name: Lint
-        run: yarn run lint
+        run: yarn install
 
       - name: Build
         run: yarn run build
