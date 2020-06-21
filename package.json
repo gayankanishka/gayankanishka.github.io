@@ -36,12 +36,14 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "touch .nojekyll && gh-pages -d public -b gh-pages -r https://$REACT_APP_GITHUB_API_KEY@github.com/gayankanishka/gayankanishka.github.io.git",
+    "develop": "gatsby develop",
     "start": "gatsby develop -o",
-    "lint": "eslint .",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx",
     "lint:fix": "eslint . --fix",
     "reset": "rm -rf .cache/ public/",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
