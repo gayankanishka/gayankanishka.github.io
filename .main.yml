@@ -1,0 +1,38 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Set Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 10.x
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Lint
+        run: yarn run lint
+
+      - name: Build
+        run: yarn run build
+        env:
+          REACT_APP_GITHUB_API_KEY: ${{ secrets.REACT_APP_GITHUB_API_KEY }}
+          REACT_APP_FORMIK_ENDPOINT: ${{ secrets.REACT_APP_FORMIK_ENDPOINT }}
+          REACT_APP_RECAPTCHA_KEY: ${{ secrets.REACT_APP_RECAPTCHA_KEY }}
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_API_KEY }}
+          BRANCH: master
+          FOLDER: .
