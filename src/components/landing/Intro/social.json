@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/gayankanishka",
+    "icon": "/icons/github-2.svg"
+  },
+  {
+    "id": 2,
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/gayan-kanishka-wijetunga-82740078/",
+    "icon": "/icons/linkedin.svg"
+  },
+  {
+    "id": 3,
+    "name": "Instagram",
+    "link": "https://instagram.com/gayan_wijetunga",
+    "icon": "/icons/instagram.svg"
+  }
+]

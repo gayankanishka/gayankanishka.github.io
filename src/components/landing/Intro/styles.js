@@ -61,3 +61,22 @@ export const Thumbnail = styled.div`
     width: 100%;
   }
 `;
+
+export const Links = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+
+  a {
+    margin: 0 0.5rem;
+
+    img {
+      margin: 0;
+    }
+
+    &:first-child,
+    &:last-child {
+      margin: 1;
+    }
+  }
+`;
