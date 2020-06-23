@@ -25,7 +25,7 @@ jobs:
         env:
           GATSBY_GITHUB_API_KEY: ${{ secrets.GATSBY_GITHUB_API_KEY }}
           GATSBY_FORMIK_ENDPOINT: ${{ secrets.GATSBY_FORMIK_ENDPOINT }}
-          GOOGLE_RECAPTCHA_KEY: ${{ secrets.GOOGLE_RECAPTCHA_KEY }}
+          GATSBY_GOOGLE_RECAPTCHA_KEY: ${{ secrets.GATSBY_GOOGLE_RECAPTCHA_KEY }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
