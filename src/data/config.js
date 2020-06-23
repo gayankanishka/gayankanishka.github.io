@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Gayan K',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  logo: 'https://gayankanishka.github.io/favicon/favicon.png',
   author: 'Gayan Kanishka',
   url: 'https://gayankanishka.github.io',
   legalName: 'Gayan Kanishka Wijetunga',
