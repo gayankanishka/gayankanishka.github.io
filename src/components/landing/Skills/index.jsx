@@ -12,10 +12,7 @@ export const Skills = () => (
       </Thumbnail>
       <Details>
         <h1>Hi There!</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
-          standard dummy.
-        </p>
+        <p>These are my skilled areas.</p>
         <Button as={AnchorLink} href="#contact">
           Hire me
         </Button>
