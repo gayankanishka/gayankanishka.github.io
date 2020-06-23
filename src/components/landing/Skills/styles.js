@@ -34,11 +34,14 @@ export const Details = styled.div`
     color: #212121;
   }
 
-  p {
-    margin-bottom: 2.5rem;
-    font-size: 20pt;
+  ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    margin-bottom: 2.1rem;
+    font-size: 12pt;
     font-weight: normal;
-    line-height: 1.3;
+    line-height: 1.1;
     color: #707070;
   }
 `;
