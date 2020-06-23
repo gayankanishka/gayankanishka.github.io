@@ -30,6 +30,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GATSBY_GITHUB_API_KEY }}
           BRANCH: master
           FOLDER: public
