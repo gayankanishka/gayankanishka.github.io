@@ -27,7 +27,7 @@ export default () => (
       try {
         await axios({
           method: 'POST',
-          url: `${process.env.REACT_APP_FORMIK_ENDPOINT}`,
+          url: `${process.env.GATSBY_FORMIK_ENDPOINT}`,
           headers: {
             'Content-Type': 'application/json',
           },
@@ -92,7 +92,7 @@ export default () => (
           <InputField>
             <FastField
               component={Recaptcha}
-              sitekey={process.env.GOOGLE_RECAPTCHA_KEY}
+              sitekey={process.env.GATSBY_GOOGLE_RECAPTCHA_KEY}
               name="recaptcha"
               onChange={value => setFieldValue('recaptcha', value)}
             />

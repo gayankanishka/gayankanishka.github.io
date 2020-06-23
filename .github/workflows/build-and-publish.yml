@@ -23,8 +23,8 @@ jobs:
       - name: Build
         run: yarn run build
         env:
-          REACT_APP_GITHUB_API_KEY: ${{ secrets.REACT_APP_GITHUB_API_KEY }}
-          REACT_APP_FORMIK_ENDPOINT: ${{ secrets.REACT_APP_FORMIK_ENDPOINT }}
+          GATSBY_GITHUB_API_KEY: ${{ secrets.GATSBY_GITHUB_API_KEY }}
+          GATSBY_FORMIK_ENDPOINT: ${{ secrets.GATSBY_FORMIK_ENDPOINT }}
           GOOGLE_RECAPTCHA_KEY: ${{ secrets.GOOGLE_RECAPTCHA_KEY }}
 
       - name: Deploy
