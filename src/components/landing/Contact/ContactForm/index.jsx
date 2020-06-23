@@ -92,7 +92,7 @@ export default () => (
           <InputField>
             <FastField
               component={Recaptcha}
-              sitekey={process.env.REACT_APP_RECAPTCHA_KEY}
+              sitekey={process.env.GOOGLE_RECAPTCHA_KEY}
               name="recaptcha"
               onChange={value => setFieldValue('recaptcha', value)}
             />
