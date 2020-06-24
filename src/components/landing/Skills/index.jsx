@@ -33,11 +33,14 @@ export const Skills = () => (
           <li>Azure Cloud Tech Stack</li>
           <li>ASP.NET Core web API</li>
           <li>Service Fabric</li>
+          <li>Node.js</li>
           <li>REST</li>
           <li>GraphQL</li>
+          <li>jQuery</li>
           <li>Docker</li>
           <li>Dapper</li>
           <li>Entity Framework Core</li>
+          <li>LINQ</li>
           <li>MS Test Framework</li>
           <li>AngularJS / Angular</li>
           <li>GatsbyJS</li>
