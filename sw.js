@@ -27,20 +27,20 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-4d637f782563a19a2c61.js"
+    "url": "webpack-runtime-075d6fc26906d93d6ff6.js"
   },
   {
     "url": "framework-f455c5eaa02f0a0c2aab.js"
   },
   {
-    "url": "app-3aebf133a21120ad5d29.js"
+    "url": "app-8b22d76d43ce51c861eb.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "6d3aec2c9e09b00cf576dca0b659bbf5"
+    "revision": "66f25239aecc5942cf46639cc92071b6"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-e73c9ff3bef73cbb42d2.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-9c33eb7d4d15603ab76b.js"
   },
   {
     "url": "manifest.webmanifest",
@@ -137,7 +137,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-3aebf133a21120ad5d29.js`))) {
+  if (!resources || !(await caches.match(`/app-8b22d76d43ce51c861eb.js`))) {
     return await fetch(event.request)
   }
 
