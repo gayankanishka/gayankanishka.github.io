@@ -1,8 +1,11 @@
-name: Build and Deploy
+name: CI/CD
 on:
   push:
     branches:
       - develop
+    paths-ignore:
+      - 'README.md'
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
