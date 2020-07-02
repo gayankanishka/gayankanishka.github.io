@@ -1,0 +1,2 @@
+# gayankanishka.github.io
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a9a52caa83b04cdcb2f333eaeefcede7)](https://app.codacy.com/manual/gkanishka6/gayankanishka.github.io?utm_source=github.com&utm_medium=referral&utm_content=gayankanishka/gayankanishka.github.io&utm_campaign=Badge_Grade_Dashboard)
