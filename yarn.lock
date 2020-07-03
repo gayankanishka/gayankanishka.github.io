@@ -6926,13 +6926,13 @@ gatsby-plugin-favicon@^3.1.6:
     html-react-parser "^0.6.4"
     lodash "^4.17.11"
 
-gatsby-plugin-manifest@^2.4.16:
-  version "2.4.16"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.16.tgz#e2776a7067a5a96c275a44970207eb3cab803bdc"
-  integrity sha512-HqAaEyM5Bafpw5KuSbfwyjj4IQ1AlCGxwoP0IqgKxbwnEyYP7XoHddpUw+atSjlVtz6gy43mXPKleUDFZ79l/g==
+gatsby-plugin-manifest@^2.4.17:
+  version "2.4.17"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.17.tgz#22b7dce25edf03338e8954ad847cd94adeaec31a"
+  integrity sha512-WKzYDIrXPIXrXISEHcz/up5dnwDzfejlTtfIKpi/yqHPaWUX07Qpw5f9BmWz3nayJmx1Yp3/5ysJgekhQKqAGA==
   dependencies:
     "@babel/runtime" "^7.10.3"
-    gatsby-core-utils "^1.3.10"
+    gatsby-core-utils "^1.3.11"
     semver "^5.7.1"
     sharp "^0.25.1"
 
@@ -6970,10 +6970,10 @@ gatsby-plugin-page-creator@^2.3.14:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@^3.3.8:
-  version "3.3.8"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.3.8.tgz#e8efbc1d9ea98d6702d01effc6d381134f37aa7d"
-  integrity sha512-K9X/LPUOw1f36jjMdNeIPPXTCTZGvF8Qfq9FIe0PuzHFfnESjxkchw6Rd9gB0/wQxSlvunIuEz0z13Vki2aRKw==
+gatsby-plugin-react-helmet@^3.3.9:
+  version "3.3.9"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.3.9.tgz#9d8ac1dc4b2df17500afbbfe4f9ef90bd8e0e467"
+  integrity sha512-V/QJUEsiYNaf95bs8ueHDp6Xk3UonPhs9yi+GURGimZomnT/9ST75Tk7pwZwZmRKQNKC8feklUzLNa3pDqHjUw==
   dependencies:
     "@babel/runtime" "^7.10.3"
 
@@ -7108,10 +7108,10 @@ gatsby-recipes@^0.1.46:
     ws "^7.3.0"
     xstate "^4.10.0"
 
-gatsby-source-filesystem@^2.3.16:
-  version "2.3.16"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.16.tgz#58267ff1fc00e0a686ff8064b9be9f74965d02d9"
-  integrity sha512-qXXUNPdfMSDTNvev3Jeeo4Qq0tDVLe5qfWkcLXxMCCnCivUm2FsICJN7LAGuN4x/kD8CrCn7g1xpRA07VtzS+Q==
+gatsby-source-filesystem@^2.3.18:
+  version "2.3.18"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.18.tgz#b86d914d3c94b2e5e48bdcb2ce04b1ec12272181"
+  integrity sha512-HcPhm8yIYrpSVCVOiCzE8dGOKfv78Dvw8p86COE/EbvqRyXQ7x2N+v5dZSluSejtoXck0vISa2kJCGPTGzcsbw==
   dependencies:
     "@babel/runtime" "^7.10.3"
     better-queue "^3.8.10"
@@ -7119,7 +7119,7 @@ gatsby-source-filesystem@^2.3.16:
     chokidar "3.4.0"
     file-type "^12.4.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.3.10"
+    gatsby-core-utils "^1.3.11"
     got "^9.6.0"
     md5-file "^3.2.3"
     mime "^2.4.6"
@@ -7127,7 +7127,7 @@ gatsby-source-filesystem@^2.3.16:
     progress "^2.0.3"
     read-chunk "^3.2.0"
     valid-url "^1.0.9"
-    xstate "^4.10.0"
+    xstate "^4.11.0"
 
 gatsby-source-graphql@^2.5.9:
   version "2.5.9"
@@ -7167,10 +7167,10 @@ gatsby-telemetry@^1.3.16:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-transformer-sharp@^2.5.9:
-  version "2.5.9"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.5.9.tgz#e709a542e70bcbee638785ca52cfb1c73d45fb23"
-  integrity sha512-nCvsHYPTTiUBl52w1Lpjb+0rvSB+UIBhcsh3OUSRgILkFrj4YIK9uRNG+Ieo5XEMG6uwRNGJNizNzsoBtlbvPg==
+gatsby-transformer-sharp@^2.5.10:
+  version "2.5.10"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.5.10.tgz#ab5298be82bbb2250777fbc298816277b94525d7"
+  integrity sha512-TXOhY4R5TrwtdHYmdqCZ45+PsVIiAUlcckxaNep1Ww/YLZsuaWm6JM8O9Wfy9MUGERmPYQpKfRJv3jCs8vSXYA==
   dependencies:
     "@babel/runtime" "^7.10.3"
     bluebird "^3.7.2"
@@ -15341,10 +15341,10 @@ xss@^1.0.6:
     commander "^2.20.3"
     cssfilter "0.0.10"
 
-xstate@^4.10.0:
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.10.0.tgz#f87e4ef593fe40300b8eec50a5d9f0763aa4f622"
-  integrity sha512-nncQ9gW+xgk5iUEvpBOXhbzSCS0uwzzT4bOAXxo6oUoALgbxzqEyMmaMYwuvOHrabDTdMJYnF+xe2XD8RRgWmA==
+xstate@^4.10.0, xstate@^4.11.0:
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.11.0.tgz#dc0bd31079fe22918c2c27c118d6310bef3dcd9e"
+  integrity sha512-v+S3jF2YrM2tFOit8o7+4N3FuFd9IIGcIKHyfHeeNjMlmNmwuiv/IbY9uw7ECifx7H/A9aGLcxPSr0jdjTGDww==
 
 xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.2"
