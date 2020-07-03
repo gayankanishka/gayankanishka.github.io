@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        persist-credentials: false
 
     - name: Set up Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -30,7 +32,11 @@ jobs:
         key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
 
     - name: Install dependencies
-      run: npm install
+      run: yarn install
 
     - name: Build
-      run: npm run build
+      run: yarn run build
+      env:
+        GATSBY_GITHUB_API_KEY: ${{ secrets.GATSBY_GITHUB_API_KEY }}
+        GATSBY_FORMIK_ENDPOINT: ${{ secrets.GATSBY_FORMIK_ENDPOINT }}
+        GATSBY_GOOGLE_RECAPTCHA_KEY: ${{ secrets.GATSBY_GOOGLE_RECAPTCHA_KEY }}
