@@ -49,7 +49,7 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
