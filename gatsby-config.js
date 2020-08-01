@@ -64,6 +64,13 @@ module.exports = {
         icon: './static/favicon/favicon.png',
       },
     },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.GATSBY_CMS_ID,
+        accessToken: process.env.GATSBY_CMS_KEY,
+      },
+    },
     'gatsby-plugin-offline',
   ],
 };
