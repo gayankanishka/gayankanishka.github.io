@@ -27,7 +27,7 @@ export const Intro = () => {
       }
     `
   );
-  console.log(edges)
+  
   return (
     <Wrapper>
         <Header />
@@ -48,7 +48,7 @@ export const Intro = () => {
           </Details>
           <Thumbnail>
             {edges.map(({node}) => (
-              <img srcSet={node.fluid.srcSet} src={node.fluid.src} alt={node.title} loading="lazy" sizes={node.fluid.sizes} />
+              <img srcSet={node.fluid.srcSet} src={node.fluid.src} alt={node.title} loading="lazy" sizes={node.fluid.sizes} key={node.title} />
             ))}
           </Thumbnail>
         </IntroWrapper>
