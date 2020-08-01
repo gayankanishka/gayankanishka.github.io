@@ -40,3 +40,5 @@ jobs:
         GATSBY_GITHUB_API_KEY: ${{ secrets.GATSBY_GITHUB_API_KEY }}
         GATSBY_FORMIK_ENDPOINT: ${{ secrets.GATSBY_FORMIK_ENDPOINT }}
         GATSBY_GOOGLE_RECAPTCHA_KEY: ${{ secrets.GATSBY_GOOGLE_RECAPTCHA_KEY }}
+        GATSBY_CMS_ID: ${{ secrets.GATSBY_CMS_ID }}
+        GATSBY_CMS_KEY: ${{ secrets.GATSBY_CMS_KEY }}
