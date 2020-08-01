@@ -6,7 +6,7 @@ on:
     paths-ignore:
       - 'README.md'
   repository_dispatch:
-    types: [contentful.content.publish_unpublis]
+    types: [publish_unpublish]
 
 jobs:
   build-and-deploy:
