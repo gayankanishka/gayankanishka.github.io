@@ -16,7 +16,7 @@ export const Intro = () => {
           edges {
             node {
               title
-              fluid(maxWidth: 600) {
+              fluid(maxWidth: 500) {
                 sizes
                 src
                 srcSet
@@ -48,7 +48,14 @@ export const Intro = () => {
           </Details>
           <Thumbnail>
             {edges.map(({node}) => (
-              <img srcSet={node.fluid.srcSet} src={node.fluid.src} alt={node.title} loading="lazy" sizes={node.fluid.sizes} key={node.title} />
+              <img
+              srcSet={node.fluid.srcSet} 
+              src={node.fluid.src} 
+              alt={node.title} 
+              loading="lazy" 
+              sizes={node.fluid.sizes} 
+              key={node.title} 
+              style={{maxWidth: 500 }} />
             ))}
           </Thumbnail>
         </IntroWrapper>
