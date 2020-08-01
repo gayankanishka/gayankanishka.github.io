@@ -11,7 +11,7 @@ export const Skills = () => {
   } = useStaticQuery(
     graphql`
       query SkillSet {
-        allContentfulSkills {
+        allContentfulSkills(sort: {order: DESC, fields: title}) {
           nodes {
             id
             title
