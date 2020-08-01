@@ -5,6 +5,8 @@ on:
       - develop
     paths-ignore:
       - 'README.md'
+  repository_dispatch:
+    types: [contentful.content.publish_unpublis]
 
 jobs:
   build-and-deploy:
