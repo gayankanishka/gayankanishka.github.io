@@ -27,7 +27,7 @@ const SocialLinks = () => {
     } = useStaticQuery(
         graphql`
         query SocialLinks {
-            allContentfulSocialLinks {
+            allContentfulSocialLinks(filter: {contentful_id: {ne: "3zKKRtQoxsMSMJQst1kaRz"}}) {
                 edges {
                     node {
                         id
