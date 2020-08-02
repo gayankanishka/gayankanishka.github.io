@@ -25,7 +25,7 @@ export const Skills = () => {
     <Wrapper id="skills">
       <SkillsWrapper as={Container}>
         <Thumbnail>
-          <img src={dev} alt="I’m Gayan K and I’m a Full-Stack developer!" />
+          <img src={dev} alt="skills image" />
         </Thumbnail>
         <Details>
           {nodes.map(({ id, title, skillStack }) => (
