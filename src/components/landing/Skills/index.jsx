@@ -1,7 +1,7 @@
 import React from 'react';
- import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Container, Button } from 'components/common';
+import { Container, Button, Chip } from 'components/common';
 import dev from 'assets/illustrations/skills.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
@@ -33,7 +33,9 @@ export const Skills = () => {
               <h3>{title}</h3>
               <ul>
                 {skillStack.map((skill, index) => (
-                  <li key={index}>{skill}</li>
+                  <li key={index}>
+                    <Chip>{skill}</Chip>
+                  </li>
                 ))}
               </ul>
             </div>

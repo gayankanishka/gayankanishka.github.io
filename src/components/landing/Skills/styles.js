@@ -43,6 +43,7 @@ export const Details = styled.div`
     font-weight: normal;
     line-height: 1.1;
     color: #707070;
+    list-style-type: none
   }
 `;
 
