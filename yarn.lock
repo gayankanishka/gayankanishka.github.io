@@ -6122,10 +6122,10 @@ eslint-config-react-app@^5.2.1:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-wesbos@0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/eslint-config-wesbos/-/eslint-config-wesbos-0.0.20.tgz#f389b6415846759b25dab9019ba612f44dd182ea"
-  integrity sha512-N3OqrS1Mo+7V5TfZVHv5uD+CsNDibuIuzHshw0lRyM2+3+9WiQmYl2+2hRGdM1qTGQNsj5DCm5vuwfSInx3ULw==
+eslint-config-wesbos@0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/eslint-config-wesbos/-/eslint-config-wesbos-0.0.22.tgz#720bcc6ce623b883b05d849167133f865bc7cb54"
+  integrity sha512-7Lj86sVJjXLHOrAZBXP9SgivjQRyemmFNVGdLJo0LEE/Dh28KWUmRpHYhcO1m/pW6BF/PFnbpAho3lIUNlo2+A==
 
 eslint-import-resolver-node@^0.3.3:
   version "0.3.4"
