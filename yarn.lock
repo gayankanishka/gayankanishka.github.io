@@ -6044,10 +6044,10 @@ eslint-config-react-app@^5.2.1:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-wesbos@0.0.22:
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/eslint-config-wesbos/-/eslint-config-wesbos-0.0.22.tgz#720bcc6ce623b883b05d849167133f865bc7cb54"
-  integrity sha512-7Lj86sVJjXLHOrAZBXP9SgivjQRyemmFNVGdLJo0LEE/Dh28KWUmRpHYhcO1m/pW6BF/PFnbpAho3lIUNlo2+A==
+eslint-config-wesbos@0.0.23:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/eslint-config-wesbos/-/eslint-config-wesbos-0.0.23.tgz#73da43a2c17a96c100ff3c21e37127e3ad544699"
+  integrity sha512-7z6GHP/gnp00cB0iZg06SoubyJYWd0fHiJIEimxsTiA3xm53myonNvj0sefTxRTmcWr1y0i3bbRK5k/69B9ysA==
 
 eslint-import-resolver-node@^0.3.3:
   version "0.3.4"
@@ -7227,7 +7227,7 @@ gatsby-cli@^2.12.92:
     yargs "^15.3.1"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.18, gatsby-core-utils@^1.3.19:
+gatsby-core-utils@^1.3.19:
   version "1.3.19"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.19.tgz#d7f9981fbc85affbbc09c96ac84c76c37615fc89"
   integrity sha512-nwiU17m2lihvN7IOkBTj4n2WKc7Eb569Vv7G8dmuwthmjIB6ml98Quno5fRBCz+2DBF6R60boDfc84Qdct1LPw==
