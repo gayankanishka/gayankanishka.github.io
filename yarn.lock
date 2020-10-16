@@ -7688,10 +7688,10 @@ gatsby-recipes@^0.2.31:
     yoga-layout-prebuilt "^1.9.6"
     yup "^0.27.0"
 
-gatsby-source-contentful@^2.3.52:
-  version "2.3.52"
-  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-2.3.52.tgz#80b57d8f601ec35a4afc39fbc0b324304bb44e7f"
-  integrity sha512-4sFzZicyBjK793frKAyXVJ8fnTtk1iPYCweSLMA6jGBrElaVOCfil3ONVQJkPNqPDApUZV7CVi8ExssDqzunCg==
+gatsby-source-contentful@^2.3.53:
+  version "2.3.53"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-2.3.53.tgz#6ff851bdb127acad2dd95bfe2845da18736b2938"
+  integrity sha512-8mYPO0T1CMmSdVD5HHznYYDrSzhEIbbwMFhHEAhni2Cvn0CUR3wKsnyKkU7Yig6SWQCItMS33pLRthC22NZ72Q==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@contentful/rich-text-types" "^14.1.1"
@@ -7703,10 +7703,12 @@ gatsby-source-contentful@^2.3.52:
     contentful "^7.14.7"
     fs-extra "^9.0.1"
     gatsby-core-utils "^1.3.23"
+    gatsby-plugin-utils "^0.2.32"
     gatsby-source-filesystem "^2.3.34"
     is-online "^8.5.0"
     json-stringify-safe "^5.0.1"
     lodash "^4.17.20"
+    node-fetch "^2.6.1"
     progress "^2.0.3"
     qs "^6.9.4"
 
