@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "^2.6.42",
     "gatsby-plugin-sitemap": "^2.4.17",
     "gatsby-plugin-styled-components": "^3.3.14",
-    "gatsby-source-contentful": "^2.3.53",
+    "gatsby-source-contentful": "^2.3.55",
     "gatsby-source-filesystem": "^2.3.33",
     "gatsby-source-graphql": "^2.7.6",
     "gatsby-transformer-sharp": "^2.5.17",
