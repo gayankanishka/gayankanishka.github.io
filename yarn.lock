@@ -7747,10 +7747,10 @@ gatsby-plugin-typescript@^2.4.22:
     "@babel/runtime" "^7.11.2"
     babel-plugin-remove-graphql-queries "^2.9.20"
 
-gatsby-plugin-utils@^0.2.32, gatsby-plugin-utils@^0.2.34:
-  version "0.2.34"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.2.34.tgz#45f4e9edc29cf501b92b1616856dd31e3c68e125"
-  integrity sha512-2tDO1d4w4A2BH9Jp3K8t3xN0FLtXvR1g9GMrVxifwgxWadXZC2n2WROzSJtof5C5COQMcijMlEkdjuzGv8u8uQ==
+gatsby-plugin-utils@^0.2.34, gatsby-plugin-utils@^0.2.36:
+  version "0.2.36"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.2.36.tgz#262da01835906bf92cc1ee43d62b94803ccfba70"
+  integrity sha512-AXvWnRA53z+iTb8LyQl0vaJmea+nf4P/0NUyf4O/8XXZblBxrI4jpcWDMO3VbssXuQrve9+5OtTXaz+GJX8t6A==
   dependencies:
     joi "^17.2.1"
 
@@ -7851,10 +7851,10 @@ gatsby-recipes@^0.2.31:
     yoga-layout-prebuilt "^1.9.6"
     yup "^0.27.0"
 
-gatsby-source-contentful@^2.3.53:
-  version "2.3.53"
-  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-2.3.53.tgz#6ff851bdb127acad2dd95bfe2845da18736b2938"
-  integrity sha512-8mYPO0T1CMmSdVD5HHznYYDrSzhEIbbwMFhHEAhni2Cvn0CUR3wKsnyKkU7Yig6SWQCItMS33pLRthC22NZ72Q==
+gatsby-source-contentful@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-3.0.0.tgz#5341566700607374c34a377a6e1523208654357a"
+  integrity sha512-/p3JWvgt/MqZ3blVi6xmkNrSEtgkjWGkET08hSlhKFa/44thNucP/sohCzqlDExsQCafW8A6jsBs6UTHBZtNVA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@contentful/rich-text-types" "^14.1.1"
@@ -7866,8 +7866,8 @@ gatsby-source-contentful@^2.3.53:
     contentful "^7.14.7"
     fs-extra "^9.0.1"
     gatsby-core-utils "^1.3.23"
-    gatsby-plugin-utils "^0.2.32"
-    gatsby-source-filesystem "^2.3.34"
+    gatsby-plugin-utils "^0.2.36"
+    gatsby-source-filesystem "^2.3.35"
     is-online "^8.5.0"
     json-stringify-safe "^5.0.1"
     lodash "^4.17.20"
@@ -7875,7 +7875,7 @@ gatsby-source-contentful@^2.3.53:
     progress "^2.0.3"
     qs "^6.9.4"
 
-gatsby-source-filesystem@^2.3.34, gatsby-source-filesystem@^2.3.35:
+gatsby-source-filesystem@^2.3.35:
   version "2.3.35"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.35.tgz#a64815f1c0bc1614519ec2dd1eef49629de6c2e5"
   integrity sha512-OHa7eDW9m/R8uIkAHpOZda517uT0yLPfLhZwEj3vqWgHRKg6bSghvKRDMQGmiD39EPur/Pl7JsotbFxGBRFRTQ==
