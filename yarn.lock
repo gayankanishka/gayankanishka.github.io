@@ -7302,10 +7302,10 @@ gatsby-recipes@^0.2.36:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-contentful@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-3.1.0.tgz#1181840606c7f9acaf5410023a57251df8eb3027"
-  integrity sha512-g47m4XtX9R0npy53A3IARKU13+CjylkDK2vIBx7MLhzhi5TW+mRvlur3oM9k9XJ4CMcmznTIqSs+k8RVahnB8g==
+gatsby-source-contentful@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-3.1.1.tgz#04889e43451405218868de2b49d9ae27d36a5d3b"
+  integrity sha512-jcq49usAim2RxHm13MfAGzgLWc0VBCpEhjW6evp+OEbtIemaz8ICkePbpRaMERNmmll6VuJURhNSRPlyuvH6Jg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@contentful/rich-text-types" "^14.1.1"
