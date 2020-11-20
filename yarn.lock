@@ -1220,13 +1220,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.5":
-  version "7.12.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
-  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/standalone@^7.12.6":
   version "7.12.6"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.12.6.tgz#fa59cf6f1cea940a790179f1375394ab31f025b9"
@@ -7322,16 +7315,16 @@ gatsby-plugin-favicon@^3.1.6:
     html-react-parser "^0.6.4"
     lodash "^4.17.11"
 
-gatsby-plugin-manifest@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.6.1.tgz#d05fec54c528b0828f4b3db443b28839f0d6f6e0"
-  integrity sha512-LIDdRi3AAahU9GVLj/leKyRDkWdNHO5p93Q3FS9xiA71ysZ/hJJbDOWB2n8YvCK4Ulx0CCSsr01nVvoMyai+Hw==
+gatsby-plugin-manifest@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.7.0.tgz#44526226e8d0a2f80c2a81e5a5c7e9a03963a890"
+  integrity sha512-6EG4Qth11C9ZLwgxQFl5TKAjtLAPoeteF68f+CWimv45wNxZausDbppFJgpOBmmPDucPiA62GSq30JT8icDJOQ==
   dependencies:
-    "@babel/runtime" "^7.11.2"
-    gatsby-core-utils "^1.4.0"
-    gatsby-plugin-utils "^0.3.0"
+    "@babel/runtime" "^7.12.5"
+    gatsby-core-utils "^1.5.0"
+    gatsby-plugin-utils "^0.4.0"
     semver "^7.3.2"
-    sharp "^0.25.4"
+    sharp "^0.26.3"
 
 gatsby-plugin-nprogress@^2.5.0:
   version "2.5.0"
@@ -7434,6 +7427,13 @@ gatsby-plugin-utils@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.3.0.tgz#1d10d3c6423603c391d31bcd12bd683bf40d7037"
   integrity sha512-z0FgEM/uU/7IgDYLaNHmUK0m09TJwYaaiefSrj7NWyavF8uEyOd+52qI9TsK2Exv4DYiQI/L7zsC28iKtPbW1g==
+  dependencies:
+    joi "^17.2.1"
+
+gatsby-plugin-utils@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.4.0.tgz#ab3ac9910b9a8397fab54c3b73b2debd4b67a281"
+  integrity sha512-yxDzKcEmZc0whi/d+2appWVhqhrpWfFAPRO0pjIszCEgaeqybUB2lSL6Hx5r36W4Ff1INQ0A/WfPOJETLY+O2A==
   dependencies:
     joi "^17.2.1"
 
