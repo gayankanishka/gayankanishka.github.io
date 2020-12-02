@@ -7314,6 +7314,13 @@ gatsby-plugin-utils@^0.4.0:
   dependencies:
     joi "^17.2.1"
 
+gatsby-plugin-utils@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-0.5.0.tgz#5d0c0b9589b673f422e09e3e2e80bafbe3457505"
+  integrity sha512-Wvzt970TWr+cDdFdXjFmJ5rQEk9CbbbHzGo5GHOwfphXOTwp7/oKbTZoiGBm9M9Tf9Rdz6ph18j2ixdC0fy2Jw==
+  dependencies:
+    joi "^17.2.1"
+
 gatsby-react-router-scroll@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-3.2.0.tgz#81998c1634eb8d7593100ead09358c12e75da701"
@@ -7385,10 +7392,10 @@ gatsby-recipes@^0.4.1:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-contentful@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-4.1.1.tgz#d293eb9f18a1703b54f53291b7aade3bc387f190"
-  integrity sha512-lehKMO+gM9t41HghhZZfKI2VVDw3BWrF76Wouv7zHozRRKtKek3VSwgvynHwNMkf42TSHvJRb2Sher+pAElxTA==
+gatsby-source-contentful@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-contentful/-/gatsby-source-contentful-4.2.0.tgz#cef973fafc7ff8031f1107de821dfbb446dc129a"
+  integrity sha512-dkUD0MCqb6eROONmLXZZm737r7ICJHhlFH1S8zbO3pEyAgGMag/MX08GPSGCup0lKmIyLTWbULR0JNfD6TQZ3A==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@contentful/rich-text-react-renderer" "^14.1.2"
@@ -7400,9 +7407,9 @@ gatsby-source-contentful@^4.1.1:
     chalk "^4.1.0"
     contentful "^7.14.12"
     fs-extra "^9.0.1"
-    gatsby-core-utils "^1.5.0"
-    gatsby-plugin-utils "^0.4.0"
-    gatsby-source-filesystem "^2.6.1"
+    gatsby-core-utils "^1.6.0"
+    gatsby-plugin-utils "^0.5.0"
+    gatsby-source-filesystem "^2.7.0"
     is-online "^8.5.1"
     json-stringify-safe "^5.0.1"
     lodash "^4.17.20"
@@ -7410,7 +7417,7 @@ gatsby-source-contentful@^4.1.1:
     progress "^2.0.3"
     qs "^6.9.4"
 
-gatsby-source-filesystem@^2.6.1, gatsby-source-filesystem@^2.7.0:
+gatsby-source-filesystem@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.7.0.tgz#09da0ecfb85a6527858029d38b7bc2c68c9a91a3"
   integrity sha512-SpIwHe89LLwgwNUEcHaRCe3J5+7ODgdJLh/PhJdSpmEzeHQRtLAfInNuoTMs8pJ53W+1HI/ph3/HXSAPddi/VA==
