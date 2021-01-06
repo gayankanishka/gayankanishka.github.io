@@ -7624,10 +7624,10 @@ gatsby-source-filesystem@^2.8.1, gatsby-source-filesystem@^2.9.0:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-gatsby-source-graphql@^2.11.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-2.11.0.tgz#a21e97bcb53be6e23bf3fbbfd7b8c6ca79969db7"
-  integrity sha512-0Dv41aEmJDHYjA9FBmRqQVxbc5hOUdUWwVGq6V1fOqcDvjJinEmEOYh9kOy7WdnGeha1HN5udr4XV6B7amF2ag==
+gatsby-source-graphql@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-2.12.0.tgz#8bd4220651e0e288881b56fe9626f4dafcb2159d"
+  integrity sha512-9uN0y+y5xaaVzIs9peyQEerI/usdoo+6LTYPzBIP/A1hrC8/9439RoJkcsoWIVSPbcObVBsbeNfz1dY0wqZ7rQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@graphql-tools/links" "^7.0.3"
@@ -10742,11 +10742,6 @@ node-abi@^2.7.0:
   dependencies:
     semver "^5.4.1"
 
-node-addon-api@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.0.2.tgz#04bc7b83fd845ba785bb6eae25bc857e1ef75681"
-  integrity sha512-+D4s2HCnxPd5PjjI0STKwncjXTUKKqm74MDMz9OPXavjsGmjkvwgLtA5yoxJUdmpj52+2u+RrXgPipahKczMKg==
-
 node-addon-api@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.1.0.tgz#98b21931557466c6729e51cb77cd39c965f42239"
@@ -13572,22 +13567,6 @@ sharp@^0.23.3:
     semver "^6.3.0"
     simple-get "^3.1.0"
     tar "^5.0.5"
-    tunnel-agent "^0.6.0"
-
-sharp@^0.26.3:
-  version "0.26.3"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.26.3.tgz#9de8577a986b22538e6e12ced1f7e8a53f9728de"
-  integrity sha512-NdEJ9S6AMr8Px0zgtFo1TJjMK/ROMU92MkDtYn2BBrDjIx3YfH9TUyGdzPC+I/L619GeYQc690Vbaxc5FPCCWg==
-  dependencies:
-    array-flatten "^3.0.0"
-    color "^3.1.3"
-    detect-libc "^1.0.3"
-    node-addon-api "^3.0.2"
-    npmlog "^4.1.2"
-    prebuild-install "^6.0.0"
-    semver "^7.3.2"
-    simple-get "^4.0.0"
-    tar-fs "^2.1.1"
     tunnel-agent "^0.6.0"
 
 sharp@^0.27.0:
