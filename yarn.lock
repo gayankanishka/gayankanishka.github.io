@@ -7598,10 +7598,10 @@ gatsby-source-filesystem@^2.9.0, gatsby-source-filesystem@^2.9.1:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-gatsby-source-graphql@^2.12.0:
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-2.12.0.tgz#8bd4220651e0e288881b56fe9626f4dafcb2159d"
-  integrity sha512-9uN0y+y5xaaVzIs9peyQEerI/usdoo+6LTYPzBIP/A1hrC8/9439RoJkcsoWIVSPbcObVBsbeNfz1dY0wqZ7rQ==
+gatsby-source-graphql@^2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-2.13.0.tgz#b95f9b5bf2a31b48f9247980f8e806e7f7bdf003"
+  integrity sha512-Z9kC6mYM/UlLdI4TrVqkzT3DVrB2chN8agwjCqIbqTu2X97NScg8rUnQEUAIoim8E273iW+8YsC15ITlxxaaeQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@graphql-tools/links" "^7.0.3"
@@ -7611,7 +7611,7 @@ gatsby-source-graphql@^2.12.0:
     apollo-link-http "^1.5.17"
     dataloader "^2.0.0"
     invariant "^2.2.4"
-    node-fetch "^1.7.3"
+    node-fetch "^2.6.1"
     uuid "3.4.0"
 
 gatsby-telemetry@^1.8.1:
@@ -10738,7 +10738,7 @@ node-fetch@2.6.1, node-fetch@^2.5.0, node-fetch@^2.6.1:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
-node-fetch@^1.0.1, node-fetch@^1.7.3:
+node-fetch@^1.0.1:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
   integrity sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
