@@ -9,7 +9,7 @@
     "dotenv": "^8.2.0",
     "formik": "^2.2.6",
     "gatsby": "^2.32.12",
-    "gatsby-cli": "^3.3.0",
+    "gatsby-cli": "^3.4.0",
     "gatsby-image": "^3.4.0",
     "gatsby-plugin-canonical-urls": "^2.10.0",
     "gatsby-plugin-favicon": "^3.1.6",
