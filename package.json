@@ -14,7 +14,7 @@
     "gatsby-plugin-canonical-urls": "^4.1.0",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-manifest": "^2.12.1",
-    "gatsby-plugin-nprogress": "^2.10.0",
+    "gatsby-plugin-nprogress": "^4.1.0",
     "gatsby-plugin-offline": "^3.10.2",
     "gatsby-plugin-react-helmet": "^5.1.0",
     "gatsby-plugin-sharp": "^2.14.4",
