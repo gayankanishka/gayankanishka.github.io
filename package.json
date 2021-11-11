@@ -19,7 +19,7 @@
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-plugin-sitemap": "^2.12.0",
-    "gatsby-plugin-styled-components": "^3.10.0",
+    "gatsby-plugin-styled-components": "^5.1.0",
     "gatsby-source-contentful": "^4.5.3",
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-source-graphql": "^2.14.0",
