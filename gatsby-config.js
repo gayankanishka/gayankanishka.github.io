@@ -71,6 +71,6 @@ module.exports = {
         accessToken: process.env.GATSBY_CMS_KEY,
       },
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 };
