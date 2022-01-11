@@ -6,7 +6,7 @@
   "author": "Gayan K",
   "dependencies": {
     "axios": "^0.24.0",
-    "dotenv": "^10.0.0",
+    "dotenv": "^11.0.0",
     "formik": "^2.2.9",
     "gatsby": "^4.4.0",
     "gatsby-cli": "^4.3.0",
