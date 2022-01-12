@@ -6148,10 +6148,10 @@ gatsby-cli@^4.5.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.4.0, gatsby-core-utils@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.5.0.tgz#b4b95252c3a06dd1883b13918746550d3f782035"
-  integrity sha512-hv0biKZytTJgO8mghiDF0mqlDTu8AbapcK1KU25m1NkvnossuVOU/5fyMqPUXRE9BBD5OT6wJQqHCmiSmoxDEQ==
+gatsby-core-utils@^3.5.0, gatsby-core-utils@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.5.1.tgz#0c0e03e173d0a615fa8146e629f2ad29ceff50d4"
+  integrity sha512-qYjPUKULMcrcQyzY3BYKRFwBeI94Cxxm95ByNzYLT80QL0qZL4CapwLgCo1PyZPNd5IWByO8+nmZTcBR6hy0tQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     ci-info "2.0.0"
@@ -6348,7 +6348,7 @@ gatsby-plugin-typescript@^4.5.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.5.0"
 
-gatsby-plugin-utils@^2.4.0, gatsby-plugin-utils@^2.5.0:
+gatsby-plugin-utils@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-2.5.0.tgz#33c343faa01577df032d4cf53c7c2b04b0b19248"
   integrity sha512-B/JpKTQJQNRVo3b3rRbOgHKV3/i3V5fYLPOGvBU6qHxBtQ9I5YYwXrsLJYX5vl4bEtLtrkiQG9zQyvSSXzJ9Sw==
@@ -6408,10 +6408,10 @@ gatsby-source-filesystem@^4.5.0:
     valid-url "^1.0.9"
     xstate "^4.26.1"
 
-gatsby-source-graphql@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-4.5.0.tgz#8676288a7cd020866a286c9a881e6af08707c546"
-  integrity sha512-3MGeKl21g0OfMVO9moqyLkMqc1cRWVSQu+prJT5LYe1Pwg1uvMarqIJK2xJnPHncxPk/1W2K0POiBpRQY6f4fQ==
+gatsby-source-graphql@^4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-4.5.1.tgz#5074938dd4c05d4fbd60825d2cb9b66415d83f15"
+  integrity sha512-57yt207JHNABSPyF6FhufLpfGM2Kgma8AEy2kCuL/jv9UagV7qs9/A2DqY922gt+DJsyhi9bAnckb3KgM35LdA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@graphql-tools/links" "^7.1.0"
@@ -6420,7 +6420,7 @@ gatsby-source-graphql@^4.5.0:
     apollo-link "1.2.14"
     apollo-link-http "^1.5.17"
     dataloader "^2.0.0"
-    gatsby-core-utils "^3.5.0"
+    gatsby-core-utils "^3.5.1"
     invariant "^2.2.4"
     node-fetch "^2.6.6"
 
