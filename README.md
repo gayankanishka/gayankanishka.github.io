@@ -1,6 +1,6 @@
 # gayankanishka.github.io
 
-![CI/CD](https://github.com/gayankanishka/gayankanishka.github.io/workflows/CI/CD/badge.svg)
+[![CI/CD](https://github.com/gayankanishka/gayankanishka.github.io/actions/workflows/build-and-publish.yml/badge.svg)](https://github.com/gayankanishka/gayankanishka.github.io/actions/workflows/build-and-publish.yml)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Personal portfolio site for [Gayan Kanishka Wijetunga](https://gayankanishka.github.io) — Lead Software Engineer based in Colombo, Sri Lanka.
