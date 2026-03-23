@@ -25,27 +25,27 @@ Built with Vite + React + TypeScript, deployed to GitHub Pages.
 ## Project Structure
 
 ```
-├── components/          # Page sections
-│   ├── Navigation.tsx
-│   ├── Hero.tsx
-│   ├── About.tsx
-│   ├── Skills.tsx
-│   ├── Experience.tsx
-│   ├── Projects.tsx
-│   ├── Contact.tsx
-│   └── Footer.tsx
-├── data/                # Static content
-│   ├── config.ts        # Name, title, social links
-│   ├── skills.ts        # Skill categories
-│   └── experience.ts    # Work history
-├── scripts/
-│   └── fetch-pinned-repos.mjs   # Build-time GitHub pinned repos fetch
 ├── src/
 │   ├── App.tsx
 │   ├── main.tsx
 │   ├── index.css
+│   ├── assets/              # SVG illustrations and icons
+│   ├── components/          # Page sections
+│   │   ├── Navigation.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
 │   └── data/
-│       └── pinned-repos.json    # Generated at build time, gitignored
+│       ├── config.ts        # Name, title, social links
+│       ├── skills.ts        # Skill categories
+│       ├── experience.ts    # Work history
+│       └── pinned-repos.json  # Generated at build time, gitignored
+├── scripts/
+│   └── fetch-pinned-repos.mjs   # Build-time GitHub pinned repos fetch
 └── public/
     ├── profile.jpg
     ├── resume.pdf
