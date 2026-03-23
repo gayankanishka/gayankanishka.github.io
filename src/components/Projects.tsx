@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Github, Star, GitFork, ExternalLink, Code2 } from 'lucide-react'
-import pinnedRepos from '@/src/data/pinned-repos.json'
+import pinnedRepos from '@/data/pinned-repos.json'
 
 interface Repo {
   id: string
